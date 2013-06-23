@@ -10,6 +10,7 @@ public class SlashActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        TitleView tView = new TitleView(this);
+        setContentView(tView);
     }
 }
