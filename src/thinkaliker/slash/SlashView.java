@@ -8,11 +8,8 @@ import android.graphics.Paint;
 import android.graphics.Canvas;
 
 /**
- * Created with IntelliJ IDEA.
- * User: Adam
- * Date: 6/23/13
- * Time: 3:20 PM
- * To change this template use File | Settings | File Templates.
+ * Created by: Adam
+ * Date: 6/23/13 - 3:20 PM
  */
 
 public class SlashView extends View{
