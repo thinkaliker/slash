@@ -1,6 +1,6 @@
 package thinkaliker.slash;
 
-import android.content.Context;
+import android.content.*;
 import android.graphics.*;
 import android.view.MotionEvent;
 import android.view.View;
@@ -22,9 +22,11 @@ public class TitleView extends View {
     private int textSize = 170;
     private boolean startButtonPushed;
     private boolean settingsButtonPushed;
+    private Context myContext;
 
     public TitleView(Context context){
         super(context);
+        myContext = context;
         titleGraphic = BitmapFactory.decodeResource(getResources(),R.drawable.title);
     }
 
@@ -82,9 +84,13 @@ public class TitleView extends View {
                 break;
             case MotionEvent.ACTION_UP:
                 if((X > (2*screenW/10) && X < (4*screenW/10)) && (Y > (8*screenH/10) && Y < (9*screenH/10))){
+                    Intent gameIntent = new Intent(myContext, GameActivity.class);
+                    myContext.startActivity(gameIntent);
                     startButtonPushed = false;
                 }
                 if((X > (6*screenW/10) && X < (8*screenW/10)) && (Y > (8*screenH/10) && Y < (9*screenH/10))){
+                    Intent settingsIntent = new Intent(myContext, SettingsActivity.class);
+                    myContext.startActivity(settingsIntent);
                     settingsButtonPushed = false;
                 }
                 break;
