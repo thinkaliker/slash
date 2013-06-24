@@ -2,6 +2,8 @@ package thinkaliker.slash;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -11,12 +13,29 @@ import android.view.View;
  */
 public class SettingsView extends View {
 
+    private int screenW;
+    private int screenH;
+    private int textSize = 170;
+    private Paint textPaint = new Paint();
+
     public SettingsView(Context context){
         super(context);
 
     }
+
+    @Override
+    public void onSizeChanged (int w, int h, int oldW, int oldH){
+        super.onSizeChanged(w, h, oldW, oldH);
+        screenW = w;
+        screenH = h;
+    }
+
     @Override
     protected void onDraw(Canvas canvas){
+        textPaint.setColor(Color.WHITE);
+        textPaint.setStyle(Paint.Style.FILL);
+        textPaint.setTextSize(textSize);
+        canvas.drawText("settings", screenW/10, screenH/2, textPaint);
 
     }
     public boolean onTouchEvent(MotionEvent event){
