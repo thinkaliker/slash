@@ -6,6 +6,7 @@ import android.graphics.*;
  * Created by: Adam
  * Date: 6/24/13 - 11:22 AM
  */
+
 public class Slash {
 
     private int id;

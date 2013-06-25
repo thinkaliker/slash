@@ -10,7 +10,6 @@ import android.view.View;
  * Date: 6/23/13 - 3:46 PM
  */
 
-
 public class TitleView extends View {
 
     private Bitmap titleGraphic;

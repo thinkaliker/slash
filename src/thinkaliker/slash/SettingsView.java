@@ -11,6 +11,7 @@ import android.view.View;
  * Created by: Adam
  * Date: 6/23/13 - 11:53 PM
  */
+
 public class SettingsView extends View {
 
     private int screenW;
