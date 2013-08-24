@@ -21,7 +21,7 @@ public class GameView extends View {
     private int screenW;
     private int screenH;
     private int textSize = 170;
-    private Paint textPaint = new Paint();
+    private final Paint textPaint = new Paint();
     private Context myContext;
     private List<Slash> stack = new ArrayList<Slash>();
     private int startTime;
@@ -29,6 +29,8 @@ public class GameView extends View {
     private int currentPos;
     private boolean gameRunning = false;
     final Timer countdownTimer = new Timer();
+    final Timer gameTimer = new Timer();
+    private static int gameLength60 = 60;
 
     public GameView(Context context) {
         super(context);
@@ -44,21 +46,19 @@ public class GameView extends View {
     }
 
     @Override
-    protected void onDraw(Canvas canvas) {
+    protected void onDraw(final Canvas canvas) {
         textPaint.setColor(Color.WHITE);
         textPaint.setStyle(Paint.Style.FILL);
         textPaint.setTextSize(textSize);
-        canvas.drawText("video game", screenW / 20, screenH / 2, textPaint);
-        canvas.drawText("", screenW / 20, 2 * screenH / 3, textPaint);
 
-        // TODO figure out how to into maek timer
-        // TODO countdown timer running
-        // TODO when timer finishes, set gameRunning to true
+        canvas.drawText("video game", screenW / 20, screenH / 2, textPaint);
+        canvas.drawText("HERP", screenW / 20, 2 * screenH / 3, textPaint);
 
         countdownTimer.scheduleAtFixedRate(new TimerTask() {
             int countdown = 3;
 
             public void run() {
+                canvas.drawText("" + countdown, screenW / 2, screenH / 2, textPaint);
                 countdown--;
                 if (countdown < 0) {
                     gameRunning = true;
@@ -69,7 +69,19 @@ public class GameView extends View {
         }, 0, 1000);
 
         while (gameRunning) {
-            // TODO start game running timer, when timer reaches set time set gameRunning to false
+
+            gameTimer.scheduleAtFixedRate(new TimerTask() {
+
+                public void run() {
+                    int timerText = gameLength60;
+                    canvas.drawText("" + timerText--, screenW / 8, screenH / 6, textPaint);
+                    if (timerText < 0) {
+                        gameRunning = false;
+                        gameTimer.cancel();
+                    }
+                }
+                // we're still in the new TimerTask() block at this point
+            }, 0, 1000);
 
             // initial slash positioning
             currentPos = screenW - (titleGraphic.getHeight());
@@ -83,6 +95,9 @@ public class GameView extends View {
             // TODO modify titleGraphic to reflect the current slash being drawn
             // TODO code to move currentPos to somewhere else OR some way of moving all slashes
             canvas.drawBitmap(titleGraphic, currentPos, (screenH - (titleGraphic.getHeight())) / 2, null);
+
+            // TODO scoring points
+            // TODO saving scores
         }
     }
 
