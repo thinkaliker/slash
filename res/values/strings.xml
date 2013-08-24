@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">slash</string>
+    <string name="start">START</string>
+    <string name="settings">SETTINGS</string>
 </resources>

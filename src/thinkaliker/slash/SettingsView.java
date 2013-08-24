@@ -21,7 +21,6 @@ public class SettingsView extends View {
 
     public SettingsView(Context context){
         super(context);
-
     }
 
     @Override
@@ -37,7 +36,6 @@ public class SettingsView extends View {
         textPaint.setStyle(Paint.Style.FILL);
         textPaint.setTextSize(textSize);
         canvas.drawText("settings", screenW/10, screenH/2, textPaint);
-
     }
     public boolean onTouchEvent(MotionEvent event){
         int eventAction = event.getAction();
