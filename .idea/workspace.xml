@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4356e491-600f-4aa1-bbc8-7299048b3367" name="Default" comment="settings activity and views">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/thinkaliker/slash/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/thinkaliker/slash/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thinkaliker/slash/ButtonDraw.java" afterPath="$PROJECT_DIR$/src/thinkaliker/slash/ButtonDraw.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thinkaliker/slash/GameView.java" afterPath="$PROJECT_DIR$/src/thinkaliker/slash/GameView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/thinkaliker/slash/Manifest.java" afterPath="$PROJECT_DIR$/gen/thinkaliker/slash/Manifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/thinkaliker/slash/R.java" afterPath="$PROJECT_DIR$/gen/thinkaliker/slash/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thinkaliker/slash/SettingsView.java" afterPath="$PROJECT_DIR$/src/thinkaliker/slash/SettingsView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/thinkaliker/slash/TitleView.java" afterPath="$PROJECT_DIR$/src/thinkaliker/slash/TitleView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+    <list default="true" id="4356e491-600f-4aa1-bbc8-7299048b3367" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slash.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4356e491-600f-4aa1-bbc8-7299048b3367" time="1377320127894" ignored="false" />
+    <file path="/Dummy.txt" changelist="4356e491-600f-4aa1-bbc8-7299048b3367" time="1377331454971" ignored="false" />
     <file path="/build.xml" changelist="4356e491-600f-4aa1-bbc8-7299048b3367" time="1371956488531" ignored="false" />
-    <file path="/README.md" changelist="4356e491-600f-4aa1-bbc8-7299048b3367" time="1371957472778" ignored="false" />
+    <file path="/README.md" changelist="4356e491-600f-4aa1-bbc8-7299048b3367" time="1377332587792" ignored="false" />
     <file path="/MyView.java" changelist="4356e491-600f-4aa1-bbc8-7299048b3367" time="1372026017368" ignored="false" />
     <file path="/SlashView.java" changelist="4356e491-600f-4aa1-bbc8-7299048b3367" time="1372056137805" ignored="false" />
     <file path="/SlashActivity.java" changelist="4356e491-600f-4aa1-bbc8-7299048b3367" time="1372038575507" ignored="false" />
@@ -95,15 +88,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SlashActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thinkaliker/slash/SlashActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TitleView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thinkaliker/slash/TitleView.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,13 +117,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameView.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thinkaliker/slash/GameView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="59" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.38487396">
+            <state line="74" column="63" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="39" selection-start="426" selection-end="426" vertical-scroll-proportion="0.51428574">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -219,7 +212,6 @@
       <list>
         <option value="$PROJECT_DIR$/ant.properties" />
         <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/gen/thinkaliker/slash/R.java" />
         <option value="$PROJECT_DIR$/src/thinkaliker/slash/MyView.java" />
         <option value="$PROJECT_DIR$/src/thinkaliker/slash/SlashActivity.java" />
@@ -233,6 +225,7 @@
         <option value="$PROJECT_DIR$/src/thinkaliker/slash/GameView.java" />
         <option value="$PROJECT_DIR$/src/thinkaliker/slash/ButtonDraw.java" />
         <option value="$PROJECT_DIR$/src/thinkaliker/slash/TitleView.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -271,6 +264,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -324,7 +318,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,7 +624,11 @@
       <created>1372122763341</created>
       <updated>1372122763341</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="some timing code, removal of gradients begin">
+      <created>1377331494833</created>
+      <updated>1377331494833</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -664,9 +661,10 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6930171" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39947438" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276247" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22134387" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32745236" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2492378" sideWeight="0.77709925" order="6" side_tool="true" content_ui="tabs" />
@@ -676,7 +674,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30698287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22134387" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -723,7 +720,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial &quot;slash&quot; object for gameplay" />
+    <option name="LAST_COMMIT_MESSAGE" value="some timing code, removal of gradients begin" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -762,6 +759,7 @@
     <MESSAGE value="settings activity" />
     <MESSAGE value="added sample text as placeholders" />
     <MESSAGE value="initial &quot;slash&quot; object for gameplay" />
+    <MESSAGE value="some timing code, removal of gradients begin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -771,11 +769,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ant.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="80" selection-start="696" selection-end="696" vertical-scroll-proportion="0.3478854" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="53" selection-start="438" selection-end="438" vertical-scroll-proportion="0.20873123" />
@@ -870,10 +863,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thinkaliker/slash/GameView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="59" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.38487396">
+        <state line="74" column="63" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="39" selection-start="426" selection-end="426" vertical-scroll-proportion="0.51428574">
+          <folding />
         </state>
       </provider>
     </entry>
